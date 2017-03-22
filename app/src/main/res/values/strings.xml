@@ -1,0 +1,12 @@
+<resources>
+	<string name="app_name">lottie</string>
+	<string name="tab_title">tab_title</string>
+	<string name="lorem_ipsum">lorem_ipsum</string>
+
+	<string name="step_1_str">Click the Tab Button and Then Next.</string>
+	<string name="step_2_str">Welcome to Droid Knights</string>
+	<string name="step_3_str">Hello?</string>
+	<string name="step_4_str">This is Sword!</string>
+	<string name="step_5_str">Kill the BUGS!</string>
+	<string name="step_6_str">Welcome to Droid Knights</string>
+</resources>
