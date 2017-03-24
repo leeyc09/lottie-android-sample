@@ -89,6 +89,7 @@ public abstract class AbstractStepperActivity extends AppCompatActivity implemen
         float endProgress = ANIMATION_TIMES[position + 1];
 
         animationView.setProgress(lerp(startProgress, endProgress, positionOffset));
+
     }
 
     private float lerp(float startValue, float endValue, float f) {

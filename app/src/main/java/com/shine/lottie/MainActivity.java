@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
 	Button btn_intro;
 	@BindView(R.id.button_stepper)
 	Button btn_stepper;
+	@BindView(R.id.button_polymorphe)
+	Button btn_polymorphe;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +35,13 @@ public class MainActivity extends AppCompatActivity {
 			@Override
 			public void onClick(View view) {
 				startActivity(new Intent(MainActivity.this, DefaultDotsActivity.class));
+			}
+		});
+
+		btn_polymorphe.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				startActivity(new Intent(MainActivity.this, motionPolymorpheActivity.class));
 			}
 		});
 	}
